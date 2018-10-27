@@ -39,7 +39,7 @@ $(document).ready(function() {
             $.ajax({
                 url: reqUrl,
                 method: "GET"
-            }).done(function(response) {
+            }).then(function(response) {
                 for (var i = 0; i < response.data.length; i++) {
                     var gifContain = $("<div>");
                     gifContain.addClass("gif-container");

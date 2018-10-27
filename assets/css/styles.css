@@ -14,7 +14,6 @@ body {
 
 #user-input {
   margin: 100px 5px;
-  /* margin-bottom: 100px; */
 }
 
 #display-section {
@@ -22,11 +21,12 @@ body {
 }
 
 .gif-rating {
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .gif-container {
-  margin: 5px 5px 5px;
+  margin: 10px 5px;
   display: inline-block;
 }
 
