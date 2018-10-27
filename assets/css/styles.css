@@ -1,0 +1,41 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+#header {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.keyword-buttons {
+  margin: 5px 10px;
+  border-radius: 20px;
+}
+
+#user-input {
+  margin: 100px 5px;
+  /* margin-bottom: 100px; */
+}
+
+#display-section {
+  margin-top: 100px;
+}
+
+.gif-rating {
+  font-size: 10px;
+}
+
+.gif-container {
+  margin: 5px 5px 5px;
+  display: inline-block;
+}
+
+.gif {
+  border: rgb(150, 150, 150) solid 2px;
+}
+
+.gif:hover {
+  cursor: pointer;
+  /* border: rgba(0, 0, 0, 0.5) solid 2px; */
+  border: rebeccapurple solid 2px;
+}
